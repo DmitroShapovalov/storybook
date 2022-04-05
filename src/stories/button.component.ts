@@ -42,6 +42,7 @@ export default class ButtonComponent {
   /**
    * Optional click handler
    */
+    // tslint:disable-next-line:no-output-on-prefix
   @Output()
   onClick = new EventEmitter<Event>();
 
