@@ -18,9 +18,6 @@ module.exports = {
       ...config.resolve?.alias,
       '@app': path.resolve(__dirname, '../src/app/'),
     };
-    console.dir(config.module.rules);
-    // Make whatever fine-grained changes you need
-    // Return the altered config
     return config;
   },
 }
